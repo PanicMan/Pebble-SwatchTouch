@@ -1,0 +1,35 @@
+{
+    "versionLabel": "1.0",
+    "uuid": "67fd70ea-19c6-45b4-8844-f2f9fe30056c",
+    "appKeys": {},
+    "longName": "Swatch Touch",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "Swatch Touch",
+    "companyName": "PanicMan",
+    "watchapp": {
+        "watchface": true
+    },
+    "resources": {
+        "media": [
+            {
+                "type": "png",
+                "name": "IMAGE_SECONDS",
+                "file": "images/Seconds.png"
+            },
+            {
+                "characterRegex": "[0-9.]",
+                "type": "font",
+                "name": "FONT_ST_37",
+                "file": "fonts/SwatchTouch_fix2.ttf"
+            },
+            {
+                "type": "png",
+                "name": "IMAGE_BACKGROUND",
+                "file": "images/Background.png"
+            }
+        ]
+    }
+}
